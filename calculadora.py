@@ -15,7 +15,7 @@ import psycopg2
 
 
 @st.cache()
-def loader(data_path = r"C:\Users\mateuscarvalho\Downloads\deploy\data\model_input.csv",model_path= r"C:\Users\mateuscarvalho\Downloads\deploy\model\model.cbm", normalize_path=r"C:\Users\mateuscarvalho\Downloads\deploy\model\data_pipeline.pkl", config_path=r"C:\Users\mateuscarvalho\Downloads\deploy\config\login_bd.yml"):
+def loader(data_path = "./data/model_input.csv",model_path= "./model/model.cbm", normalize_path="./model/data_pipeline.pkl", config_path="./config/login_bd.yml"):
     model_input = pd.read_csv(data_path)
     
     with open(config_path) as f:
