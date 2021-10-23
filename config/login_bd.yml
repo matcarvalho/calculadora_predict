@@ -1,0 +1,7 @@
+Credencial:
+   Host: 'ec2-54-164-22-242.compute-1.amazonaws.com'
+   Database: 'd9jkgka0t83l0l'
+   User: 'byoeewwjdiuniw'
+   Port: '5432'
+   Password: '8349661b5180af3903700ff1932598a5c7ece9701723610eec92750fff06abd0'
+   URI: 'postgres://byoeewwjdiuniw:8349661b5180af3903700ff1932598a5c7ece9701723610eec92750fff06abd0@ec2-54-164-22-242.compute-1.amazonaws.com:5432/d9jkgka0t83l0l'
