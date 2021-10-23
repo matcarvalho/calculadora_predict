@@ -1,5 +1,5 @@
 pyaml==20.4.0
-scikit-learn==0.24.2
+scikit-learn==0.23
 pandas==1.2.2
 numpy==1.21.1 
 catboost==0.25.1
